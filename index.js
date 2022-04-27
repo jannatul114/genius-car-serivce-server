@@ -97,7 +97,7 @@ async function run() {
 
         })
 
-        app.post('/hero', (req, res) => {
+        app.get('/hero', (req, res) => {
             res.send('Hero meets heroku');
         })
     } finally {
