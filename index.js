@@ -96,6 +96,10 @@ async function run() {
             res.send(result);
 
         })
+
+        app.post('/hero', (req, res) => {
+            res.send('Hero meets heroku');
+        })
     } finally {
     }
 }
